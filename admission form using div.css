@@ -1,0 +1,138 @@
+.container{
+	padding: 20px;
+	background-color: tan;
+	color: black;
+	font-size: 18px;
+	height: 2400px;
+}
+.header{
+	float: right;
+	color: red;
+	background-color: black;
+
+}
+.img{
+	float: left;
+	
+	background-color: tan;
+	margin-left: 30px;
+	margin-top: -30px;
+	border: 5px solid red;
+}
+.LD{
+	margin-left: 240px;
+	width: 600px;
+	margin-top: 90px;
+	background-color: red;
+	opacity:0.7;
+}
+.h2{
+	color: green;
+	background-color: black;
+
+}
+.left{
+	width: 850px;
+	border: none;
+	border-right: 1px solid black;
+	margin-top: -50px; 
+}
+.container input[type="text"] , input[type="Email"] , input[type="Number"],input[type="date"]
+{
+	border: none;
+	border-bottom: 3px solid black;
+	padding: 5px;
+outline: none;
+align-items: center;
+width: 300px;
+border-radius: 12px;
+}
+.right{
+	float: right;
+	height: 850px;
+	width: 430px;
+	margin-top: -900px; 
+	
+}
+.pastefoto{
+	border:1px solid black;
+	background-color: black;
+	text-align: center;
+	color: red;
+	width: 150px;
+	height: 150px;
+	margin-left: 150px;
+	border-radius: 15px;
+	opacity: 0.9;
+}
+.stable , th , tr , td{
+	background-color: white;
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+.stable input[type="text"]{
+	border: none;
+	border-bottom: 3px solid black;
+	padding: 5px;
+outline: none;
+align-items: center;
+width: 150px;
+
+}
+.siblingtable input[type="text"]{
+	border: none;
+	border-bottom: 3px solid black;
+	padding: 5px;
+outline: none;
+align-items: center;
+width: 300px;
+}
+.siblingtable, th, tr ,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-top: none;
+	font-weight: bold;
+}
+.Declaration{
+	color: red;
+}
+.checkbox 
+	 {
+    background-color: #2196F3;
+		size: 20px;
+	
+}
+.officeuse{
+	border:none;
+	border-right: 1px solid black;
+	margin-right: 80%;
+}
+.column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+    height: 300px; 
+    border: none;
+    border-right: 1px solid black;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.remarks{
+	border: 1px solid black;
+	padding:20px;
+}
+.Others{
+	border: 1px solid black;
+	padding:20px;
+}
+.button{
+	background-color: green;
+	border: 2px  solid black;
+	color: black;
+	white-space: 5%;
+	font-weight: bold;
+}
